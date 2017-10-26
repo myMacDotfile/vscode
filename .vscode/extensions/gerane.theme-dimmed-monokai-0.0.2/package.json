@@ -1,0 +1,33 @@
+{
+	"name": "Theme-dimmed-monokai",
+	"displayName": "dimmed-monokai Theme",
+	"description": "dimmed-monokai Theme ported from the dimmed-monokai TextMate Theme",
+	"version": "0.0.2",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-dimmed-monokai/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gerane/VSCodeThemes.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "dimmed-monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dimmed-monokai.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "4dfe2109-c7fe-4dfa-ba34-2c74387226ef",
+		"publisherId": "a5c25faf-bf60-4941-81b9-9a852b96c5fb",
+		"publisherDisplayName": "gerane"
+	}
+}
